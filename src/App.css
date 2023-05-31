@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: #148780; */
+  /* background-image: url(./MyComponents/image/ing.jpg); */
+  /* max-width: 10px; */
+  /* height: 10px; */
+}
 .App {
   text-align: center;
 }

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.bg{
+    height: 100vh;
+    width: 100vw;
+  
+    background-image: url('./image/ing.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer{
+    height: 70vh;
+    width: 55vw;
+    background-color: rgba(219, 219, 219, 0.295);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.404);
+    
+}
+.timeBox{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 40px;
+    margin-top: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 4px;
+}
+span:nth-child(2){
+    /* color: blue; */
+    margin: 0px 5px;
+}
+span:nth-child(4){
+    /* color: blue; */
+    margin: 0px 5px;
+}
+span:nth-child(6){
+    /* color: blue; */
+    /* margin: 0px 5px; */
+    position: relative;
+    left: 20px;
+}
+#ap{
+    background-color: rgb(24, 24, 24);
+    border-radius: 5px;
+    color: white;
+    padding: 0px 8px;
+}
+#dateName{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 300;
+}
+.listing{
+    /* height: 100rem; */
+}
+
+/* -------------------------------------------------------- */
+
+/* AddItems.js ka css */
+
+#addInputField form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#addInputField form input{
+    width: 85%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+#addInputField form input[type=text]:focus{
+    border: 1px solid rgb(94, 92, 86);
+    outline: none;
+}
+#addInputField form input::placeholder{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif
+}
+#addInputField form input:focus::placeholder{
+    color: transparent;
+}
+#addInputField form button{
+    padding: 2px 15px;
+    margin-left: 12px;
+    border-radius: 7px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+#addInputField form button:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+    color: white;
+    cursor:pointer;
+}
+/* ----------------------------------------------------- */
+            /* todolist */
+#todoitems-container{
+    /* display: flex; */
+    text-align: center;
+    background-color: rgba(248, 248, 248, 0.411);
+    margin: 12px 30px;
+    border-radius: 4px;
+    padding: 5px 12px;
+    /* backdrop-filter: blur(1px); */
+    font-family: 'Noto Sans', sans-serif
+}
+#todoitems-container button{
+    /* color: red; */
+    /* justify-content:end; */
+    position: relative;
+    float: right;
+    background-image: url('./image/dustibin.png');
+    background-color: rgba(255, 0, 0, 0.253);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid;
+    height: 25px;
+    width: 67px;
+
+}
+.inputStrike:checked + label.strikeThrough{
+    text-decoration: line-through;
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+}
+.inputStrike[type=checkbox]{
+    /* width: 100%; */
+    /* position: absolute; */
+    float: left;
+    margin-top: 4px;
+    visibility:hidden;
+}
