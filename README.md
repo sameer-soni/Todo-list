@@ -15,10 +15,10 @@ in 'src' folder 'index.js' is the main one and it triggers './MyComponents/Body2
 
 all the main codes are written in 'Body2.js'.
 
-'Todo.js' is a container that contains 'todoitems.js'
-css of all the scripts are writted in 'Body2.css'
-'AddItems.js' has the input box and the 'ADD' button.
-'Todo.js' triggers the 'TodoItems.js' which renders all the to do list.
+'Todo.js' is a container that contains 'todoitems.js'.\
+css of all the scripts are writted in 'Body2.css'.\
+'AddItems.js' has the input box and the 'ADD' button.\
+'Todo.js' triggers the 'TodoItems.js' which renders all the to do list.\
 
 
 
