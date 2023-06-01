@@ -20,7 +20,7 @@ export const AddItems = (props) => {
     <div id='addInputField'>
       <form action="" onSubmit={Submit} >
         <input type="text" placeholder='Add Your Task...' value={input} onChange={(f)=>setinput(f.target.value)}/>
-        <button>Add</button>
+        <button>+</button>
       </form>
     </div>
   )

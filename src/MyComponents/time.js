@@ -1,5 +1,5 @@
 let dte, hr, min, sec,ap, dt;
-let weekdays = ['Monday','Tuesday','Wednesday','Thrusday','Friday','Saturday','Sunday'];
+let weekdays = ['MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY','SUNDAY'];
 setInterval(() => {
     dte = new Date();
     hr = dte.getHours();

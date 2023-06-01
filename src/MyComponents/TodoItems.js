@@ -14,7 +14,8 @@ export const TodoItems = (props) => {
            <input type="checkbox" name="" id={props.todo.title} className='inputStrike'/>
            
           <label htmlFor={props.todo.title} className='strikeThrough'>{props.todo.title}</label>
-        <button onClick={()=>{props.deleteItem(props.todo)}}></button>
+        <div onClick={()=>{props.deleteItem(props.todo)}}><i class="fa-thin fa-trash"></i></div>
+        
     </div>
     </>
   )
